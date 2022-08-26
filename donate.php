@@ -87,9 +87,26 @@
                     </div>
                     <div class="banner"><img src="banner.jpg"></div>
 <br><br><br><br><br><br>
-  <h1 class="topic">Volunteer Registration</h1>
+  <div class="donation_section">
+        <div class="container">
+            <div class="donation">
+               <!-- <div class="title">The future is in your hands.</div> -->
+                <div class="donation_form">
+                    <div class="field_row">
+                      <div class="col-sm-6">
+                        <label class="amount_label">Enter donation amount*</label>
+                        <div class="amount_field">
+                          <span>Rs.</span>
+                          <input type="text" name="amount" id="amount" class="form-control-amount" placeholder="INR*">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
      <div class="forms">
-      <h3>Fill This Form...</h3>
+      <h3>Personal Details</h3>
      <div class="contactform">
      <form class="register-form outer-top-xs" role="form" method="post" name="register" onSubmit="return valid();">
                     <div class="text">
@@ -112,21 +129,32 @@
                     </div>
                     </div>
                     <div class="txt_field">
-                        <input type="text" required id="age" name="age">
+                        <input type="text" required id="age" name="city">
                         <span></span>
-                        <label>Age</label></div>
+                        <label>City/District</label></div>
                     <div id="right">    
                         <div class="txt_field"> 
-                    <input type="text"required id="profession" name="profession">
+                    <input type="text"required id="profession" name="state">
                     <span></span>
-                    <label>Profession</label>
+                    <label>State</label>
                     </div>
                     </div>
                     <div id="right2">    
                     <div class="txt_field"> 
                     <input type="text"required id="lang" name="lang">
                     <span></span>
-                    <label>Language Spoken</label>
+                    <label>Country</label>
+                    </div>
+                    </div>
+                    <div class="txt_field">
+                        <input type="text" required id="age" name="pin">
+                        <span></span>
+                        <label>Pincode</label></div>
+                    <div id="right">    
+                        <div class="txt_field"> 
+                    <input type="text"required id="profession" name="pan">
+                    <span></span>
+                    <label>Pan Number</label>
                     </div>
                     </div>
                       <div class="txt">
