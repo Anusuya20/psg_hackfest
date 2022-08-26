@@ -1,0 +1,124 @@
+.middle{
+  max-width:1000px;
+  background: #fff;
+  border: 3px solid #54d400;
+  padding: 50px;
+  margin: 20px;
+  height: 551px;
+  box-shadow: -13px 17px 30px -20px rgb(0 0 0 / 30%);
+  margin-left: 12%;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 20px 0;
+  width: 200px;
+}
+form .txt{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 20px 0;
+  
+}
+.txt_field input{
+  width: 60%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #54d400;
+  transition: .5s;
+}
+.txt input{
+  width: 40%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #54d400;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #54d400;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+  width: 100%;
+}
+.txt input:focus ~ label,
+.txt input:valid ~ label{
+  top: -5px;
+  color: #54d400;
+}
+.txt input:focus ~ span::before,
+.txt input:valid ~ span::before{
+  width: 100%;
+}
+input[type=submit]{
+  font-size: 18px;
+  background:#54d400;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 5px;
+  padding: 5px 0;
+  outline:none;
+  }
+#right
+{
+  position:relative;
+   top:-60px;
+   left:20em;
+}
+#right2
+{
+  position:relative;
+   top:-122px;
+   left:40em;
+}
+.topic{
+  text-align: center;
+}
