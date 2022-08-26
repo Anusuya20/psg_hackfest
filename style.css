@@ -306,3 +306,36 @@ li {
     color: rgb(255, 255, 255) !important;
 
 } */
+.banner img{
+    padding-top:10%;
+}
+.donation_section{
+    margin-left: 40%;
+}
+.donation_section .donation .donation_form .field_row .amount_field {
+    width: 100%;
+    display: flex;
+}
+.donation_section .donation .donation_form .field_row .amount_field span {
+    width: 30px;
+    height: 50px;
+    background: #54d400;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffff;
+    padding: 12px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.donation_section .donation .donation_form .field_row .amount_field input {
+    width: 150px;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #000000;
+}
+.donation_section .donation .donation_form .field_row .amount_label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
