@@ -1,12 +1,10 @@
 .middle{
-  max-width:1000px;
   background: #fff;
   border: 3px solid #54d400;
   padding: 50px;
   margin: 20px;
   height: 551px;
   box-shadow: -13px 17px 30px -20px rgb(0 0 0 / 30%);
-  margin-left: 12%;
 }
 form .txt_field{
   position: relative;

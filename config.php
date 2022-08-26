@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost','root','','shopping');
+$con = mysqli_connect('localhost','root','','organization');
 // Check connection
 if (mysqli_connect_errno())
 {
