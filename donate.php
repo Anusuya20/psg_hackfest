@@ -50,39 +50,42 @@
                                     <ul class="navbar-nav ml-auto">
             
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="https://nusasatu.com">Home
-                                                <span class="sr-only">(current)</span>
+                                            <a class="nav-link" href="index.html">Home
+                                                
                                             </a>
                                         </li>
-            
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
+                                            <a class="nav-link" href="about.html">About</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Volunteers</a>
+                                            <a class="nav-link" href="volunteer.php">Volunteers</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Programs</a>
+                                            <a class="nav-link" href="program.html">Programs</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Report a case</a>
+                                            <a class="nav-link" href="case.php">Report a case</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Donate</a>
+                                            <a class="nav-link" href="donate.php">Donate
+                                            <span class="sr-only">(current)</span>
+                                            </a>
+
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="contact1.html">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </nav>
                     </div>
+                    <div class="banner"><img src="banner.jpg"></div>
 <br><br><br><br><br><br>
   <h1 class="topic">Volunteer Registration</h1>
      <div class="forms">

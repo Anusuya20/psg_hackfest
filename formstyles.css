@@ -1,10 +1,12 @@
-.middle{
+.forms{
+  max-width:1000px;
   background: #fff;
   border: 3px solid #54d400;
   padding: 50px;
   margin: 20px;
-  height: 551px;
+  height: 560px;
   box-shadow: -13px 17px 30px -20px rgb(0 0 0 / 30%);
+  margin-left: 16%;
 }
 form .txt_field{
   position: relative;
@@ -100,10 +102,11 @@ input[type=submit]{
   color: white;
   font-weight: bold;
   cursor: pointer;
-  width: 20%;
-  border-radius: 5px;
+  width: 18%;
+  border-radius: 3px;
   padding: 5px 0;
   outline:none;
+  margin-left: 41%;
   }
 #right
 {
