@@ -50,33 +50,33 @@
                                     <ul class="navbar-nav ml-auto">
             
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="https://nusasatu.com">Home
+                                            <a class="nav-link" href="index.html">Home
                                                 <span class="sr-only">(current)</span>
                                             </a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
+                                            <a class="nav-link" href="about.html">About</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Volunteers</a>
+                                            <a class="nav-link" href="volunteer.php">Volunteers</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Programs</a>
+                                            <a class="nav-link" href="programs.html">Programs</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Report a case</a>
+                                            <a class="nav-link" href="case.html">Report a case</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Donate</a>
+                                            <a class="nav-link" href="donate.php">Donate</a>
                                         </li>
             
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="contact.html">Contact</a>
                                         </li>
                                     </ul>
                                 </div>

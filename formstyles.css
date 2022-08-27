@@ -10,13 +10,13 @@
 }
 form .txt_field{
   position: relative;
-  border-bottom: 2px solid #adadad;
+  border-bottom: 2px solid black;
   margin: 20px 0;
   width: 200px;
 }
 form .txt{
   position: relative;
-  border-bottom: 2px solid #adadad;
+  border-bottom: 2px solid black;
   margin: 20px 0;
   
 }
@@ -33,7 +33,7 @@ form .txt{
   position: absolute;
   top: 50%;
   left: 5px;
-  color: #adadad;
+  color: black;
   transform: translateY(-50%);
   font-size: 18px;
   pointer-events: none;
@@ -62,7 +62,7 @@ form .txt{
   position: absolute;
   top: 50%;
   left: 5px;
-  color: #adadad;
+  color: black;
   transform: translateY(-50%);
   font-size: 18px;
   pointer-events: none;
